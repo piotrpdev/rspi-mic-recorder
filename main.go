@@ -44,7 +44,7 @@ func setupLogger(filePath string, debugMode bool) (*os.File, error) {
 }
 
 func main() {
-	logPath := flag.String("logPath", "./vaf.log", "Path to log file")
+	logPath := flag.String("logPath", "./rmr.log", "Path to log file")
 	debugMode := flag.Bool("debug", false, "Enable debug mode")
 	flag.Parse()
 
